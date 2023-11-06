@@ -1,0 +1,309 @@
+body,
+html {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+select,
+button {
+    font-family: cursive;
+
+}
+
+.bluebg {
+    background: rgb(4, 161, 221);
+    background: linear-gradient(120deg, rgb(4, 161, 221) 0%, rgba(255, 255, 255, 1) 95%);
+    color: black;
+}
+
+.logotext {
+    padding-left: 10em;
+}
+
+header h1 {
+    color: rgb(255, 182, 48);
+}
+
+.sub-text-area {
+    width: 50%;
+}
+
+section {
+    background: rgb(4, 161, 221);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-right: 4em;
+}
+
+select:hover {
+    border: none;
+}
+
+button {
+    border: none
+}
+
+.button {
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10em;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.sub-text-area button {
+    margin-top: 3em;
+}
+
+.txtarea {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.txtarea h1 {
+    font-size: 68px;
+}
+
+.playbtn {
+    border-radius: 8em;
+}
+
+.btntxt {
+    color: white;
+    text-decoration: none;
+    padding-right: 10em;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 10em;
+    margin-top: 5px;
+}
+
+.box {
+    height: 5em;
+    width: 7%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 1em;
+}
+
+.whitebg {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15em;
+}
+
+.into {
+    text-align: center;
+}
+
+.img {
+    height: 20em;
+    width: 30em;
+    border-radius: 0 0 0 4em;
+}
+
+.whitebg {
+    margin-top: 5em;
+}
+
+.courses {
+    padding: 5em;
+
+}
+
+.course {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+
+}
+
+.boxone {
+    box-shadow: 0px 0px 5px 3px gray;
+    border-radius: 10px;
+}
+
+.boxone img {
+    border: none;
+    border-radius: 10px;
+}
+
+.extras {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    background-color: rgba(135, 207, 235, 0.277);
+    color: purple;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.rating {
+    color: white;
+    background-color: purple;
+    padding: 3px 15px;
+    border-radius: 35em;
+}
+
+.boldtext {
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+.classesinfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tutoring {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15em;
+
+}
+
+.applyBtn {
+    background-color: white;
+    padding: 1em;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.shadowBox {
+    box-shadow: 0px 0px 5px 3px gray;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1em;
+}
+
+.boxess {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+
+.boxtwo {
+    margin-top: 2em;
+    background-color: rgba(135, 207, 235, 0.17);
+    border-radius: 30px;
+    padding: 2em;
+}
+
+.show {
+    margin-top: 15px;
+    background-color: rgba(137, 43, 226, 0.645);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.innovators {
+    margin-top: 20em;
+}
+
+.otherinfo {
+    text-align: center;
+}
+
+.testimonial {
+    margin-top: 5em;
+}
+
+.testimonialarea {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonialimg {
+    border-radius: 50%;
+    border: 1px solid purple;
+}
+
+.contact {
+    margin-left: 15em;
+    margin-top: 8em;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 255, 0.507);
+    margin-bottom: -10em;
+    padding-top: 1em;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.contactInput {
+    display: flex;
+    justify-content: center;
+}
+
+.contactInput {
+    padding-bottom: 2em;
+}
+
+.subscribeBtn {
+    background-color: rgb(4, 161, 221);
+    padding: 1em;
+    border-radius: 8px;
+    color: white;
+}
+
+#mailInput {
+    width: 50em;
+    height: 3em;
+    border-radius: 5px;
+}
+
+footer {
+    background: rgb(4, 161, 221);
+    background: linear-gradient(120deg, rgba(255, 255, 255, 1) 15%, rgb(4, 161, 221) 90%);
+    padding: 1em;
+    position: relative;
+    z-index: -2;
+}
+
+.footer {
+    padding: 5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+.footerBase {
+    text-align: center;
+}
+
+.first {
+    font-weight: bold;
+}
